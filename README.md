@@ -3,11 +3,11 @@
 I made this extension to learn a new thing in this corona pandemic period.
 
 As these days it is hard to take google meet attendace and monitor the students
-so based on few ideas, i made this chrome extension.
+so based on few ideas and assumptions, i made this chrome extension.
 
-The code used in the extection is not totally developed by me, 
-few part of the code is taken from different sources and modified to make the extension work.
-
+The code used in this extection is not completely developed by me, 
+few parts of the code is taken from different sources and 
+modified according to my idea to develope an extension.
 If i got any credit? A part of credit goes to them also.
 
 STAY HOME STAY SAFE.
