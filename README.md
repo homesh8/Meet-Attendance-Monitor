@@ -13,3 +13,6 @@ If i got any credit? A part of credit goes to them also.
 STAY HOME STAY SAFE.
 
 
+This project improved version for [Google meet Attendace Collecter](https://chrome.google.com/webstore/detail/google-meet-attendance-co/hjjeaaibilndjeabckakaknlcbblcmbc).
+
+Project source: https://github.com/p2pdops/meet-attendance-collector
