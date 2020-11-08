@@ -1,0 +1,36 @@
+.a101{
+    position: relative !important;
+    height:200px !important;
+    width: 599% !important;
+    z-index: 0 !important;   
+    color: turquoise !important;
+    background-color:whitesmoke;
+}
+
+.a101:hover{
+    height:300px !important;
+    z-index: 2 !important; 
+}
+
+.u92yl{
+    background-color: turquoise;
+    position: relative !important;
+    height:300px !important;
+    margin-top:300px !important;
+    margin-left: -599% !important;
+    z-index: 1 !important;
+}
+
+.uFGEzd{
+    display: none !important;
+}
+
+.VUk8eb .zCU1Sc{
+    display: none !important;
+}
+
+.vvTMTb{
+    position: relative !important;;
+    margin-top:-100px !important;
+    height:390px !important;
+}
