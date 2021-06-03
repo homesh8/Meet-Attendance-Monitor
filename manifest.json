@@ -1,0 +1,49 @@
+{
+"name": "Google Meet Attendance Monitor",
+"version": "2.2.9.1",
+"description": "Google Meet Attendance Monitor",
+"manifest_version": 2,
+"update_url": "https://clients2.google.com/service/update2/crx",
+"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+"page_action": {
+  "default_icon": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "default_popup": "popup/popup.html",
+  "default_title": "Google Meet Attendance Monitor"
+  },
+    "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "declarativeContent"
+    ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "css":["fix.css"],
+      "js": [
+        "content.bundle.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "externally_connectable" : {
+    "matches": [ "*://meet.google.com/*" ]
+  },
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png" 
+  },
+  "author": "Majeti Naga Homesh"
+}
